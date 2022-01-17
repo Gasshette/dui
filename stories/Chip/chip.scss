@@ -1,0 +1,65 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.chip-component {
+  display: inline-block;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  &.lg {
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &.md,
+  &.sm {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  &.md {
+    font-size: medium;
+  }
+
+  &.sm {
+    font-size: small;
+  }
+
+  &.bg-primary {
+    border-color: set-color($primary);
+    color: set-color($primary);
+  }
+
+  &.bg-secondary {
+    border-color: set-color($secondary);
+    color: set-color($secondary);
+  }
+
+  &.bg-info {
+    border-color: set-color($info);
+    color: set-color($info);
+  }
+
+  &.bg-success {
+    border-color: set-color($success);
+    color: set-color($success);
+  }
+
+  &.bg-warning {
+    border-color: set-color($warning);
+    color: set-color($warning);
+  }
+
+  &.bg-danger {
+    border-color: set-color($danger);
+    color: set-color($danger);
+  }
+}
