@@ -1,5 +1,5 @@
 import React from 'react';
-import './chip.scss';
+// import '../stories/Chip/chip.scss';
 
 export interface ChipProps {
     /**
@@ -30,7 +30,6 @@ export const Chip = ({
     icon,
     iconSide = 'left',
     text,
-    ...props
 }: ChipProps) => {
     return (
         <div className={['chip-component', `bg-${color}`, size].join(' ')}>
