@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { Chip, ChipProps } from "../../src/chip";
+import { Chip, ChipProps } from "../../src/Chip/chip";
 
 export default {
     title: 'Display/Chip',

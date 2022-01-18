@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../stories/Chip/chip.scss';
+// import './chip.scss';
 
 export interface ChipProps {
     /**
